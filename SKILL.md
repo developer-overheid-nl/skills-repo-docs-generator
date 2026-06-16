@@ -38,7 +38,7 @@ Maak alle benodigde bestanden aan die je nodig hebt om je project te open source
 - Gebruik de `repo-docs-generator` om de files te genereren: `npx github:developer-overheid-nl/repo-docs-generator`
 - Zet de files in de root van het project.
 - Doe dit doormiddel van het aanmaken van een input.json op basis van de beschikbare projectinformatie. De input.json geef je vorm aan de hand van deze schema.json: https://github.com/developer-overheid-nl/repo-docs-generator/blob/main/input_json_schema.json
-- Vraag zo nodig aan de user voor extra input als je niet voldoende informatie hebt voor het aanmaken van de files.
+- Vraag zo nodig aan de user om extra input als je niet voldoende informatie hebt voor het aanmaken van de files.
 
 ## Projectinformatie verzamelen
 
@@ -62,6 +62,7 @@ Haal aanvullende informatie op via de remote:
   `https://github.com/<org>`). Gebruik de weergavenaam zoals getoond op de
   profielpagina, niet de slug uit de URL.
 - Gebruik diezelfde weergavenaam ook als `legal.mainCopyrightOwner`.
+- Als er geen git link te vinden is vraag dan om input aan de user.
 
 ## LandingURL bepalen
 
