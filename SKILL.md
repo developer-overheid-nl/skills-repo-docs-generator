@@ -5,7 +5,7 @@ description: >-
     controleer of ze al aanwezig zijn. Gebruik deze skill wanneer de gebruiker
     een repository open source wil publiceren, ontbrekende bestanden wil
     toevoegen, of een project wil klaarmaken voor publieke bijdragen.
-    Voorbeelden: "maak dit open source", "open source checklist", "voeg README
+    Voorbeelden: "maak dit project open source", "open source checklist", "voeg README
     toe", "CODE_OF_CONDUCT.md aanmaken", "publiccode.yml", "Standard for Public
     Code", "nieuwe open source repo opzetten", "welke bestanden heb ik nodig",
   "voeg een Security.md toe","voeg een licentie toe".
