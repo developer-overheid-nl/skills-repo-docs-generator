@@ -27,6 +27,16 @@ allowed-tools:
   - Bash(/tmp/pcval/publiccode-parser-go *)
   - Bash(npx @stoplight/spectral-cli *)
   - WebFetch(*)
+  - AskUserQuestion
+  - Read
+  - Bash(curl -s *)
+  - Bash(npx github:developer-overheid-nl/oas-generator *)
+  - Bash(npx @developer-overheid-nl/don-checker *)
+  - Bash(npx @stoplight/spectral-cli *)
+  - Bash(npx @redocly/cli *)
+  - Bash(npx @openapitools/openapi-generator-cli *)
+  - Bash(git clone *)
+  - WebFetch(*)
 ---
 
 # Maak alle bestanden aan die je nodig hebt voor een Open Source project
@@ -151,7 +161,8 @@ shortDescription: >-
 
 ## Valideer met publiccode-parser-go
 
-Valideer de publiccode.yml met https://github.com/developer-overheid-nl/don-checker
+Valideer de publiccode.yml met https://github.com/developer-overheid-nl/don-checker:
+npx @developer-overheid-nl/don-checker@latest validate --ruleset publiccode-05 --input ./publiccode.yml
 
 ## Referenties
 
