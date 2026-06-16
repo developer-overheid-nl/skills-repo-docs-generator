@@ -35,7 +35,7 @@ Maak alle benodigde bestanden aan die je nodig hebt om je project te open source
 
 ## Instructies
 
-- Gebruik de global CLI van de repo docs generator: `repo-docs-generate` om de files te genereren.
+- Gebruik de global CLI van de repo docs generator: `repo-docs-generator` om de files te genereren.
 - Zet de files in de root van het project.
 - Doe dit doormiddel van het aanmaken van een input.json op basis van de beschikbare projectinformatie. De input.json geef je vorm aan de hand van deze schema.json: https://github.com/developer-overheid-nl/repo-docs-generator/blob/main/input_json_schema.json
 - Vraag zo nodig aan de user voor extra input als je niet voldoende informatie hebt voor het aanmaken van de files.
