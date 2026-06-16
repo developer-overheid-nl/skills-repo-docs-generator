@@ -83,7 +83,7 @@ voeg deze toe als `landingURL` direct onder `url`. Zet de URL **niet** in de
 
 ## Licentie bepalen
 
-De repo-docs-generator CLI zal een LICENSE file genereren, deze opslaan.
+Gebruik de license file die de `repo-docs-generator` CLI genereert.
 
 ## SoftwareType bepalen
 
@@ -110,54 +110,6 @@ PascalCase of snake_case.
 
 `releaseDate` en `softwareVersion` sleutels **niet** toevoegen. Als ze bestaan,
 verwijder ze dan.
-
-## Lege regels na blokken met sub-sleutels
-
-Na een sleutel met meerdere sub-sleutels moet altijd een lege regel worden
-toegevoegd. Enkelvoudige sleutels (zoals `name`, `url`, `softwareType`,
-`developmentStatus`) krijgen géén lege regel erna.
-
-Correct:
-
-```yaml
-name: Mijn Project
-url: https://example.com
-softwareType: addon
-developmentStatus: development
-
-description:
-  nl:
-    shortDescription: ...
-
-legal:
-  license: EUPL-1.2
-```
-
-## longDescription en shortDescription opmaak
-
-Schrijf `longDescription` als een YAML literal block scalar (`|`) met harde
-regelafbrekingen zodat elke regel maximaal 80 tekens breed is. Voorbeeld:
-
-```yaml
-longDescription: |
-  De OAS Generator is een webapplicatie waarmee ontwikkelaars eenvoudig een
-  OpenAPI Specification (OAS) document kunnen genereren dat voldoet aan de
-  Nederlandse API Design Rules.
-```
-
-Gebruik **geen** folded block scalar (`>`) voor `longDescription`, want die
-voegt regels samen tot één lange regel.
-
-Schrijf `shortDescription` als een YAML folded block scalar met strip-chomping
-(`>-`) zodat elke regel maximaal 80 tekens breed is maar de waarde één
-aaneengesloten string blijft (regelafbrekingen worden samengevoegd tot spaties).
-Voorbeeld:
-
-```yaml
-shortDescription: >-
-  Deze generator kan worden gebruikt om een OpenAPI-specificatie te maken dat
-  voldoet aan de NL API Design Rules.
-```
 
 ## Valideer de publiccode.yml met don-checker
 
