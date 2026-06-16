@@ -162,7 +162,9 @@ shortDescription: >-
 ## Valideer met publiccode-parser-go
 
 Valideer de publiccode.yml met https://github.com/developer-overheid-nl/don-checker:
+```
 npx @developer-overheid-nl/don-checker@latest validate --ruleset publiccode-05 --input ./publiccode.yml
+```
 
 ## Referenties
 
