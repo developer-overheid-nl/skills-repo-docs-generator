@@ -159,7 +159,7 @@ shortDescription: >-
   voldoet aan de NL API Design Rules.
 ```
 
-## Valideer met publiccode-parser-go
+## Valideer de publiccode.yml met don-checker
 
 Valideer de publiccode.yml met https://github.com/developer-overheid-nl/don-checker:
 ```
